@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-}
-.btn{
+.calculadora .teclado .btn{
     background-color: #d4d4d4;
     text-align: center;
     border: 1px solid #000;
@@ -9,7 +6,7 @@
     line-height: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.btn:hover{
+.calculadora .teclado .btn:hover{
     background-color: #b3b3b3;
     cursor:pointer;
 }
@@ -67,62 +64,62 @@
     width: 30px;
     height: 30px;
 }
-.textright{
+.calculadora .textright{
     text-align: right;
     color: #FFF;
     cursor: pointer;
 }
-.btnc{
+.calculadora .teclado .btnc{
     grid-column: 1; grid-row: 1;
 }
-.btnce{
+.calculadora .teclado .btnce{
     grid-column: 2 / span 2; grid-row: 1;
 }
-.btndivi{
+.calculadora .teclado .btndivi{
     grid-column: 4; grid-row: 1;
 }
-.btnuno{
+.calculadora .teclado .btnuno{
     grid-column: 1; grid-row: 2;
 }
-.btndos{
+.calculadora .teclado .btndos{
     grid-column: 2; grid-row: 2;
 }
-.btntres{
+.calculadora .teclado .btntres{
     grid-column: 3; grid-row: 2;
 }
-.btnmult{
+.calculadora .teclado .btnmult{
     grid-column: 4; grid-row: 2;
 }
-.btncuatro{
+.calculadora .teclado .btncuatro{
     grid-column: 1; grid-row: 3;
 }
-.btncinco{
+.calculadora .teclado .btncinco{
     grid-column: 2; grid-row: 3;
 }
-.btnseis{
+.calculadora .teclado .btnseis{
     grid-column: 3; grid-row: 3;
 }
-.btnresta{
+.calculadora .teclado .btnresta{
     grid-column: 4; grid-row: 3;
 }
-.btnsiete{
+.calculadora .teclado .btnsiete{
     grid-column: 1; grid-row: 4;
 }
-.btnocho{
+.calculadora .teclado .btnocho{
     grid-column: 2; grid-row: 4;
 }
-.btnnueve{
+.calculadora .teclado .btnnueve{
     grid-column: 3; grid-row: 4;
 }
-.btnigual{
+.calculadora .teclado .btnigual{
     grid-column: 4; grid-row: 4 / span 2;
 }
-.btncero{
+.calculadora .teclado .btncero{
     grid-column: 1; grid-row: 5;
 }
-.btncoma{
+.calculadora .teclado .btncoma{
     grid-column: 2; grid-row: 5;
 }
-.btnsuma{
+.calculadora .teclado .btnsuma{
     grid-column: 3; grid-row: 5;
 }
