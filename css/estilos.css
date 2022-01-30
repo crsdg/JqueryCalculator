@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+.btn{
+    background-color: #d4d4d4;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 3px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn:hover{
+    background-color: #b3b3b3;
+    cursor:pointer;
+}
+.calculadoraboton{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(15, 13, 41);
+    bottom: 4px;
+    right: 4px;
+    border-radius: 5px;
+    background-image: url(../img/calculator.png);
+    background-size: 40px auto;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+}
+.calculadoraboton:hover{
+    background-color: rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+.calculadora{
+    max-width: 130px;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    box-shadow: 8px 7px 7px #afafaf;
+    display: none;
+}
+.calculadora .historia{
+    border: 1px solid #BDBDBD;
+    height: 20px;
+    margin: 2px 0px;
+    background-color: white;
+    text-align: right;
+}
+.calculadora .pantalla{
+    border: 1px solid #BDBDBD;
+    height: 20px;
+    margin: 2px 0px;
+    width: 124px;
+    background-color: white;
+    text-align: right;
+}
+.calculadora .teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    grid-auto-rows: minmax(30px,auto);
+    grid-gap: 4px;
+}
+.calculadora .teclado button{
+    width: 30px;
+    height: 30px;
+}
+.textright{
+    text-align: right;
+    color: #FFF;
+    cursor: pointer;
+}
+.btnc{
+    grid-column: 1; grid-row: 1;
+}
+.btnce{
+    grid-column: 2 / span 2; grid-row: 1;
+}
+.btndivi{
+    grid-column: 4; grid-row: 1;
+}
+.btnuno{
+    grid-column: 1; grid-row: 2;
+}
+.btndos{
+    grid-column: 2; grid-row: 2;
+}
+.btntres{
+    grid-column: 3; grid-row: 2;
+}
+.btnmult{
+    grid-column: 4; grid-row: 2;
+}
+.btncuatro{
+    grid-column: 1; grid-row: 3;
+}
+.btncinco{
+    grid-column: 2; grid-row: 3;
+}
+.btnseis{
+    grid-column: 3; grid-row: 3;
+}
+.btnresta{
+    grid-column: 4; grid-row: 3;
+}
+.btnsiete{
+    grid-column: 1; grid-row: 4;
+}
+.btnocho{
+    grid-column: 2; grid-row: 4;
+}
+.btnnueve{
+    grid-column: 3; grid-row: 4;
+}
+.btnigual{
+    grid-column: 4; grid-row: 4 / span 2;
+}
+.btncero{
+    grid-column: 1; grid-row: 5;
+}
+.btncoma{
+    grid-column: 2; grid-row: 5;
+}
+.btnsuma{
+    grid-column: 3; grid-row: 5;
+}
